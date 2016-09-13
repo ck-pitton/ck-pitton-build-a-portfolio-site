@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CK Pitton Web Development</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/css.min.css">
+
+  </head>
+
+  <body>
+
+    <div class="page_wrapper">
+      <!-- HEADER START -->
+      <header class="home_header">
+        <a href="index.html">
+          <picture>
+            <source media="(max-width: 601px)" srcset="images/logo_small_mobile.webp" type="image/webp">
+              <source media="(max-width: 601px)" srcset="images/logo_small_mobile.png" type="image/png">
+            <source srcset="images/logo.webp 2x, images/logo_small.webp 1x" type="image/webp">
+            <source srcset="images/logo.png 2x, images/logo_small.png 1x" type="image/png">
+            <img src="images/logo.png" alt="logo">
+          </picture>
+        </a>
+        <div>
+          <h1>CK Pitton</h1>
+          <h2>Web Development</h2>
+        </div>
+      </header>
+      <!-- HEADER END -->
+      <section class="hero">
+        <h3>Web Developement Portfolio</h3>
+        <picture>
+          <!-- Mobile -->
+          <source media="(max-width: 349px)" srcset="images/coffee_mobile_small_2x.webp 2x, images/coffee_mobile_small_1x.webp" type="image/webp">
+          <source media="(max-width: 349px)" srcset="images/coffee_mobile_small_2x.jpg 2x, images/coffee_mobile_small_1x.jpg" type="image/jpeg">
+          <source media="(max-width: 500px)" srcset="images/coffee_mobile_large_2x.webp 2x, images/coffee_mobile_large_1x.webp" type="image/webp">
+          <source media="(max-width: 500px)" srcset="images/coffee_mobile_large_2x.jpg 2x, images/coffee_mobile_large_1x.jpg" type="image/jpeg">
+          <!-- Tablet -->
+          <source media="(max-width: 768px)" srcset="images/coffee_tablet_2x.webp 2x, images/coffee_tablet_1x.webp" type="image/webp">
+          <source media="(max-width: 768px)" srcset="images/coffee_tablet_2x.jpg 2x, images/coffee_tablet_1x.jpg" type="image/jpeg">
+          <!-- Desktop -->
+          <source media="(min-width: 769px)" srcset="images/coffee_desktop_2x.webp 2x, images/coffee_desktop_1x.webp" type="image/webp">
+          <source media="(min-width: 769px)" srcset="images/coffee_desktop_2x.jpg 2x, images/coffee_desktop_1x.jpg" type="image/jpeg">
+          <img src="images/coffee.jpg" alt="office block">
+        </picture>
+
+      </section>
+
+      <section class="portfolio">
+        <h3>Featured Work</h3>
+        <div class="row clearfix">
+          <div class="col-4 portfolio_item">
+            <picture>
+              <source srcset="images/soccer.webp" type="image/webp">
+              <img src="images/soccer.jpg" alt="">
+            </picture>
+            <h3>First Work</h3>
+            <a href="#">Link 1</a>
+          </div>
+          <div class="col-4 middle_portfolio portfolio_item">
+            <picture>
+              <source srcset="images/cat.webp" type="image/webp">
+            <img src="images/cat.jpg" alt="">
+          </picture>
+          <h3>Second Work</h3>
+          <a href="#">Link 2</a></div>
+          <div class="col-4 portfolio_item">
+            <picture>
+              <source srcset="images/forest.webp" type="image/webp">
+            <img src="images/forest.jpg" alt="">
+          </picture>
+          <h3>Third Work</h3>
+          <a href="#">Link 3</a></div>
+        </div>
+
+
+      </section>
+      <footer>
+        <p>Copyright © 2016 Callum King</p>
+      </footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/index.js">
+
+    </script>
+  </body>
+
+</html>
